@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins,sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+.container-header{
+    display: flex;
+    justify-content: center;
+}
+.header{
+   width: 80%;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+ul{
+    /* display: flex;
+    justify-content: space-between; */
+    gap: 25px;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    gap: 25px;
+    margin-left: 20px;
+    
+}
+.span{
+    color: white;
+    padding: 15px
+}
+a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    padding: 5px
+}
+
+#contact{
+    color: ;
+    background-color: #6c264c;
+    padding: 5px;
+    height: 40px;
+    border-radius: 107px 107px 107px 107px;
+}
+input{
+width: 40vh;
+height: 5vh;
+}
+
+#icon{
+    padding: 5px;
+    color:#6c264c;
+    font-size: 31px;
+    
+}
+#one{
+    border:1px solid #6c264c;
+    border-radius: 50%;
+    padding: 5px;
+}
+#two{
+    border:1px solid #6c264c;
+    border-radius: 50%;
+    padding: 5px;
+}
+.cake{
+    text-align: center;
+    width: ;
+}
+h1{
+    text-align: center;
+    background-color: #6c264c33;
+}
+.secondmain{
+    position: relative;
+    left: -55px;
+    width: 100%;
+    margin-left: 3.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    column-gap: px;
+    justify-content: center;
+    background-color: #6c264c33;
+    
+}
+.imgg{
+    margin-top: 40px;
+    width: 300px;
+    position: relative;
+    left: 12.5%;
+}
+.g1{
+    position: relative;
+    left: 50px;
+    width: 80%;
+    height: 60vh;
+    border-radius: 5%;
+    background-color: aliceblue;
+    margin-top: 10px;
+
+}
+.content{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 40px;
+}
+.btn2{
+   float: right;
+   display: inline-block;
+   padding: 2px;
+   position: relative;
+   left: -14;
+   top: 1%;
+   margin-left: -35px;
+   margin-right: 48px;
+   background-color: #6c264c;
+   color: white;
+}
